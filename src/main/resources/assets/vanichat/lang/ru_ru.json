@@ -1,0 +1,29 @@
+{
+  "vanichat.config.title": "Настройки VaniChat",
+
+  "vanichat.config.category.general": "Основные",
+  "vanichat.config.category.debug": "Отладка",
+  "vanichat.config.category.friends": "Друзья",
+
+  "vanichat.config.option.enable_filter": "Включить фильтр сообщений",
+  "vanichat.config.option.enable_messages": "Сообщения",
+  "vanichat.config.option.enable_messages.tooltip": "ПОЛНОСТЬЮ отключает чат",
+  "vanichat.config.option.swap_click_actions": "Поменять местами действия по клику на никнейм",
+
+  "vanichat.config.option.enable_debug": "Включить режим отладки",
+  "vanichat.config.option.show_raw_json": "Показывать необработанные JSON-сообщения",
+
+  "vanichat.config.option.friend_list": "Список друзей",
+  "vanichat.config.option.friend_list.tooltip": "Список игроков, которые будут считаться друзьями",
+
+  "vanichat.config.category.direct_messages": "Личные сообщения",
+  "vanichat.config.option.color_scheme": "Раскраска",
+  "vanichat.config.option.color_scheme.2_colors": "2 цвета",
+  "vanichat.config.option.color_scheme.gradient": "Градиент",
+  "vanichat.config.option.custom_color1": "Первый цвет",
+  "vanichat.config.option.custom_color2": "Второй цвет",
+
+  "vanichat.update_screen.title": "Доступно новое обновление VaniChat",
+  "vanichat.update_screen.download": "Скачать",
+  "vanichat.update_screen.ignore": "Игнорировать"
+}

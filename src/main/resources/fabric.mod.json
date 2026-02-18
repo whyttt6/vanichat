@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "vanichat",
+  "version": "0.7-mc1.21.8",
+  "name": "VaniChat",
+  "description": "Этот мод делает чат красивее и удобнее: Личные сообщения становятся цветными, с красивым градиентом и кликабельным ником для быстрого ответа. Свой цвет в чате: Ты можешь установить собственный цвет для своих сообщений. Для глобального чата (с !) он будет ярким, а для локального приглушенным.",
+  "authors": ["_WHYTT_ and Gemini-Coder"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vanichat/icons/mod_icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "whytt.vanichat.client.VaniChatClient"
+    ],
+
+    "modmenu": [
+      "whytt.vanichat.client.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "vanichat.mixins.json",
+    {
+      "config": "vanichat.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "cloth-config": ">=19.0.147"
+  },
+  "suggests": {
+    "modmenu": ">=15.0.0"
+  }
+}
